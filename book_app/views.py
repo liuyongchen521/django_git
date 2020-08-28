@@ -6,3 +6,5 @@ def login(request):
     return HttpResponse("login")
 def register(request):
     return HttpResponse("reg")
+def first(request):
+    return HttpResponse("first/")
